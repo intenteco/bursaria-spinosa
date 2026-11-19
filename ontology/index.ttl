@@ -1,0 +1,31 @@
+# Bursaria spinosa Cav. (Sweet Bursaria) — DCAT Dataset & Distribution Manifest
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+@prefix q42:    <urn:qualia:ontology:> .
+@prefix qualia: <urn:qualia:taxon:> .
+@prefix member: <urn:qualia:member:bursaria-spinosa:> .
+
+qualia:bursaria_spinosa a dcat:Dataset ;
+    owl:sameAs <did:q42:taxon:bursaria_spinosa> ;
+    dct:title "Bursaria spinosa Cav. (Sweet Bursaria) Hypermedia Dataset"@en ;
+    dct:publisher <https://github.com/intenteco> ;
+    dct:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    q42:commonsFramework "SPC" ;
+    dcat:landingPage <https://github.com/intenteco/bursaria-spinosa> ;
+    dct:hasPart member:taxon-ttl , member:taxon-q42 , member:index-ttl , member:index-q42 ,
+                member:vibe-cad , member:actuation-vibe , member:hmc , member:mesh-10d ,
+                member:substrate-m64 , member:field-emf .
+
+member:taxon-ttl a dcat:Distribution ; dcat:accessURL <file:ontology/taxon.ttl> .
+member:taxon-q42 a dcat:Distribution ; dcat:accessURL <file:dist/taxon.q42> .
+member:index-ttl a dcat:Distribution ; dcat:accessURL <file:ontology/index.ttl> .
+member:index-q42 a dcat:Distribution ; dcat:accessURL <file:dist/index.q42> .
+member:vibe-cad a dcat:Distribution ; dcat:accessURL <file:source/bursaria-spinosa.vibe> .
+member:actuation-vibe a dcat:Distribution ; dcat:accessURL <file:source/actuation.vibe> .
+member:hmc a dcat:Distribution ; dcat:accessURL <file:dist/bursaria-spinosa.hmc> .
+member:mesh-10d a dcat:Distribution ; dcat:accessURL <file:dist/bursaria-spinosa.10d> .
+member:substrate-m64 a dcat:Distribution ; dcat:accessURL <file:dist/bursaria-spinosa-substrate.m64> .
+member:field-emf a dcat:Distribution ; dcat:accessURL <file:dist/bursaria-spinosa-field.emf> .

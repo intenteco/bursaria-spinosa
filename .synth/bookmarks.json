@@ -1,0 +1,29 @@
+{
+  "schema": "synth.semantic-bookmarks/v1",
+  "items": [
+    {
+      "id": "apni-name-bursaria-spinosa",
+      "url": "https://id.biodiversity.org.au/name/apni/78561",
+      "kind": "page",
+      "title": "APNI Name \u2014 Bursaria spinosa Cav."
+    },
+    {
+      "id": "apni-node-bursaria-spinosa",
+      "url": "https://id.biodiversity.org.au/node/apni/2909432",
+      "kind": "page",
+      "title": "APNI/APC Node \u2014 Bursaria spinosa Cav."
+    },
+    {
+      "id": "gbif-bursaria-spinosa",
+      "url": "https://www.gbif.org/species/3908142",
+      "kind": "page",
+      "title": "GBIF \u2014 Bursaria spinosa Cav."
+    },
+    {
+      "id": "vicflora-bursaria-spinosa",
+      "url": "https://vicflora.rbg.vic.gov.au/flora/taxon/8326a7f6-19c6-45a2-8876-d714a6db6c98",
+      "kind": "page",
+      "title": "VicFlora \u2014 Bursaria spinosa Cav."
+    }
+  ]
+}

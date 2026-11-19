@@ -1,0 +1,164 @@
+{
+  "schema": "intenteco.species-production-receipt/v1",
+  "work_packet": "WEB-WP-15C",
+  "taxon": "bursaria-spinosa",
+  "producer_cli": "C:\\github\\synth\\target-prod\\debug\\synth.exe",
+  "quality_profile": "production16",
+  "hmc": {
+    "path": "C:\\github\\eco-intent\\bursaria-spinosa\\dist\\bursaria-spinosa.hmc",
+    "bytes": 14592075,
+    "sha256": "10b04ac74f673f2d1c6c5304de45e7ee7d950745070207fda98db25ab50449f2"
+  },
+  "canonical_10d": {
+    "path": "C:\\github\\eco-intent\\bursaria-spinosa\\dist\\bursaria-spinosa.10d",
+    "bytes": 1135360,
+    "sha256": "b7f789a6e5f1b206056cbd118b92782a2e288a574d7d4fc0bbe13162087677a9",
+    "vertices": 42632,
+    "triangles": 78236
+  },
+  "sidecars": {
+    "taxon_q42": {
+      "bytes": 7399,
+      "sha256": "35e119895daa7247459ee59e40f97507a454eefb019d2fc3ae4bd858f96d7efe"
+    },
+    "index_q42": {
+      "bytes": 3467,
+      "sha256": "4a07fbeefd5e32437ff96fd857f5d3b93c7f4ebecf864a93ed61d9fb8f89d367"
+    },
+    "field_emf": {
+      "bytes": 1776000,
+      "sha256": "260e507ddb6d02427b41687d81ed84f349c6cc22f6a2750df26693626e5ab2d0"
+    },
+    "substrate_m64": {
+      "bytes": 16512,
+      "sha256": "b028c6a79f8dbb1c2e1df5eedcacb2b7d0e74033aee7883e0cad43cc9b049690"
+    }
+  },
+  "lods": {
+    "lod0": {
+      "bytes": 208320,
+      "sha256": "c2ce2981b36440e774667e79ec21e90e18b1abff178f573ca168104c59b32448",
+      "vertices": 9290,
+      "triangles": 13000,
+      "bounds_min": [
+        -1.131494402885437,
+        -1.2959599494934082,
+        -1.1362425088882446
+      ],
+      "bounds_max": [
+        1.1943241357803345,
+        2.1139016151428223,
+        1.163365125656128
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "bursaria-spinosa-lod0.10d",
+      "distance_band_m": "0-25m",
+      "local_url": "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod0.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod0.10d"
+    },
+    "lod1": {
+      "bytes": 59400,
+      "sha256": "f9ea98fe5889a67a7819fabec9f938197adccf4da7ada12acbedd6fe6058d07b",
+      "vertices": 2344,
+      "triangles": 4388,
+      "bounds_min": [
+        -0.9517170786857605,
+        -1.2276347875595093,
+        -1.016580581665039
+      ],
+      "bounds_max": [
+        1.0090417861938477,
+        1.9856961965560913,
+        0.9904181957244873
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "bursaria-spinosa-lod1.10d",
+      "distance_band_m": "25-90m",
+      "local_url": "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod1.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod1.10d"
+    },
+    "lod2": {
+      "bytes": 12824,
+      "sha256": "6c2474da52a3b19e3383fcb55e4f4af4268e7050a84771bdf1b8100b9ef1f3db",
+      "vertices": 512,
+      "triangles": 900,
+      "bounds_min": [
+        -0.6568272709846497,
+        -1.0990029573440552,
+        -0.8976523876190186
+      ],
+      "bounds_max": [
+        0.7637203335762024,
+        1.665941834449768,
+        0.7247206568717957
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "bursaria-spinosa-lod2.10d",
+      "distance_band_m": ">90m",
+      "local_url": "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-lod2.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-lod2.10d"
+    },
+    "aboveground_lod1": {
+      "bytes": 43292,
+      "sha256": "ad58517185e878fe61dbc046f7283647e2a1143e6937c73b6ac6d9e534d56f61",
+      "vertices": 1753,
+      "triangles": 3082,
+      "bounds_min": [
+        -0.9517170786857605,
+        -0.20000000298023224,
+        -0.9661945700645447
+      ],
+      "bounds_max": [
+        1.0090417861938477,
+        1.9856961965560913,
+        0.9904181957244873
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "bursaria-spinosa-aboveground-lod1.10d",
+      "distance_band_m": "25-90m (y >= -0.20m)",
+      "local_url": "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-aboveground-lod1.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-aboveground-lod1.10d"
+    },
+    "rhizosphere": {
+      "bytes": 28140,
+      "sha256": "fe25245e8baf16950389c5f8134f21bc0a4ccbc5b2b9b87baaa67e848900ddeb",
+      "vertices": 1125,
+      "triangles": 2020,
+      "bounds_min": [
+        -0.7846405506134033,
+        -1.2276347875595093,
+        -1.016580581665039
+      ],
+      "bounds_max": [
+        0.8787968158721924,
+        0.15000000596046448,
+        0.8487439751625061
+      ],
+      "sections": [
+        "QuantizedMesh",
+        "FieldSidecar",
+        "SurfaceReading"
+      ],
+      "file": "bursaria-spinosa-rhizosphere.10d",
+      "distance_band_m": "xray-subterranean (y <= 0.15m)",
+      "local_url": "/intenteco/bursaria-spinosa/dist/lods/bursaria-spinosa-rhizosphere.10d",
+      "remote_url": "https://raw.githubusercontent.com/intenteco/bursaria-spinosa/main/dist/lods/bursaria-spinosa-rhizosphere.10d"
+    }
+  }
+}

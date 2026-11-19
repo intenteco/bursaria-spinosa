@@ -1,0 +1,19 @@
+{
+  "schema": "synth.jobs/v1",
+  "items": [
+    {
+      "id": "bursaria-spinosa-taxon-ttl",
+      "kind": "compile",
+      "source_path": "eco-intent/bursaria-spinosa/ontology/taxon.ttl",
+      "out_q42": "bursaria-spinosa-15c-taxon.q42",
+      "ingest_to_graph": false
+    },
+    {
+      "id": "bursaria-spinosa-index-ttl",
+      "kind": "compile",
+      "source_path": "eco-intent/bursaria-spinosa/ontology/index.ttl",
+      "out_q42": "bursaria-spinosa-15c-index.q42",
+      "ingest_to_graph": false
+    }
+  ]
+}

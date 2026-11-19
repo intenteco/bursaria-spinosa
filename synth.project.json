@@ -1,0 +1,12 @@
+{
+  "schema": "synth.project/v1",
+  "name": "bursaria-spinosa",
+  "brief": "Bursaria spinosa Cav. (Sweet Bursaria) \u2014 South-Eastern Australian Dry & damp sclerophyll woodland understorey, grassy box-gum plains & rocky slopes (SE Australia) ontology, multi-station 3D CAD, InstanceState64 ontogeny, and Hypermedia (.hmc) production repository (Work-Packet WEB-WP-15C).",
+  "sources": [
+    "ontology",
+    "source",
+    "dossier"
+  ],
+  "working": "previews",
+  "delivered": "dist"
+}
